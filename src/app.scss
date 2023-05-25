@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  background-color: aliceblue;
+}
+
+body {
+  padding: 50px 0;
+
+  * {
+    margin: auto;
+  }
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
